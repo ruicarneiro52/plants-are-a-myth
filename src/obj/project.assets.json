@@ -2856,11 +2856,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rui.carneiro\\Desktop\\UmbracoCultures_1.0\\final_UmbracoCultures\\src\\final_UmbracoCultures.csproj",
+      "projectUniqueName": "C:\\Users\\rui.carneiro\\Documents\\GitHub\\plants-are-a-myth\\src\\final_UmbracoCultures.csproj",
       "projectName": "final_UmbracoCultures",
-      "projectPath": "C:\\Users\\rui.carneiro\\Desktop\\UmbracoCultures_1.0\\final_UmbracoCultures\\src\\final_UmbracoCultures.csproj",
+      "projectPath": "C:\\Users\\rui.carneiro\\Documents\\GitHub\\plants-are-a-myth\\src\\final_UmbracoCultures.csproj",
       "packagesPath": "C:\\Users\\rui.carneiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rui.carneiro\\Desktop\\UmbracoCultures_1.0\\final_UmbracoCultures\\src\\obj\\",
+      "outputPath": "C:\\Users\\rui.carneiro\\Documents\\GitHub\\plants-are-a-myth\\src\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

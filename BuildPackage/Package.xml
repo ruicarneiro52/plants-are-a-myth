@@ -31,6 +31,28 @@
 
   <control />
 
-  <files />
+  <files>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>../src/App_Plugins/UmbracoCultures</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>UmbracoCultures.controller.js</guid>
+      <orgPath>../src/App_Plugins/UmbracoCultures</orgPath>
+      <orgName>UmbracoCultures.controller.js</orgName>
+    </file>
+    <file>
+      <guid>UmbracoCultures.html</guid>
+      <orgPath>../src/App_Plugins/UmbracoCultures</orgPath>
+      <orgName>UmbracoCultures.html</orgName>
+    </file>
+    <file>
+      <guid>UmbracoCulturesController.cs</guid>
+      <orgPath>../src/Controllers/Api</orgPath>
+      <orgName>UmbracoCulturesController.cs</orgName>
+    </file>
+	
+  </files>
 
 </umbPackage>

@@ -73,16 +73,17 @@
   <PropertyGroup>
     <BuildConfig>Release</BuildConfig>
     <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
-    <CoreProjectDir>$(RootDir)\src</CoreProjectDir>
+    <CoreProjectDir>$(RootDir)\Test</CoreProjectDir>
     <BuildUmbDir>$(MSBuildProjectDirectory)\_umbraco</BuildUmbDir>
     <BuildNuGetDir>$(MSBuildProjectDirectory)\_nuget</BuildNuGetDir>
     <ArtifactsDir>$(MSBuildProjectDirectory)\artifacts</ArtifactsDir>
+    <GruntProjectDir>$(RootDir)\Angular</GruntProjectDir>
   </PropertyGroup>
 
   <!-- TARGETS -->
   <Target Name="GetProductVersion">
     <Error Condition="$(AbortBuild) == 'true'" Text="Aborting the build as the UMBRACO_PACKAGE_PRERELEASE_SUFFIX suffix is set 'rtm' but APPVEYOR_REPO_TAG is not 'true'" />
-    <GetProductVersion BuildVersion="$(APPVEYOR_BUILD_VERSION)" BuildSuffix="$(UMBRACO_PACKAGE_PRERELEASE_SUFFIX)" Release="$(Release)">
+    <GetProductVersion BuildVersion="1" BuildSuffix="$(UMBRACO_PACKAGE_PRERELEASE_SUFFIX)">
       <Output TaskParameter="ProductVersion" PropertyName="ProductVersion"/>
     </GetProductVersion>
   </Target>
@@ -106,7 +107,7 @@
 
 	<!-- COMPILE -->
 	<Target Name="Compile" DependsOnTargets="UpdateAssemblyInfo">
-		<MSBuild Projects="$(CoreProjectDir)\final_UmbracoCultures.csproj" Properties="Configuration=$(BuildConfig)"/>
+		<MSBuild Projects="$(CoreProjectDir)\Test.csproj" Properties="Configuration=$(BuildConfig)"/>
 	</Target>
 
 	<!-- PREPARE FILES -->

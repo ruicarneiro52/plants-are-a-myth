@@ -1,0 +1,14 @@
+{
+	"propertyEditors": [
+		{
+			"alias": "UmbracoCultures",
+			"name": "Umbraco Cultures",
+			"editor": {
+				"view": "~/App_Plugins/UmbracoCultures/UmbracoCultures.html"
+			}
+		}
+	],
+	"javascript": [
+		"/App_Plugins/UmbracoCultures/UmbracoCultures.controller.js"
+	]
+}

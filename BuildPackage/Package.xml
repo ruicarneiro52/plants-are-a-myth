@@ -2,21 +2,23 @@
 <umbPackage>
   <info>
     <package>
-      <name></name>
+      <name>UmbracoCultures</name>
       <version>1.0.0</version>
-      <license url="www.google.com"></license>
-      <url>www.google.com</url>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>http://our.umbraco.org/projects/</url>
       <requirements>
-        <major>0</major>
-        <minor>0</minor>
+        <major>7</major>
+        <minor>4</minor>
         <patch>0</patch>
       </requirements>
     </package>
     <author>
-      <name>DAVID BARBOSA</name>
-      <website>www.google.com</website>
+      <name>David Barbosa</name>
+      <website>http://opensource.org/</website>
     </author>
-    <readme><![CDATA[]]></readme>
+    <readme>
+      <![CDATA[Gets Umbraco backend cultures. ]]>
+    </readme>
   </info>
 
   <DocumentTypes />
@@ -31,28 +33,7 @@
 
   <control />
 
-  <files>
-    <file>
-      <guid>package.manifest</guid>
-      <orgPath>../src/App_Plugins/UmbracoCultures</orgPath>
-      <orgName>package.manifest</orgName>
-    </file>
-    <file>
-      <guid>UmbracoCultures.controller.js</guid>
-      <orgPath>../src/App_Plugins/UmbracoCultures</orgPath>
-      <orgName>UmbracoCultures.controller.js</orgName>
-    </file>
-    <file>
-      <guid>UmbracoCultures.html</guid>
-      <orgPath>../src/App_Plugins/UmbracoCultures</orgPath>
-      <orgName>UmbracoCultures.html</orgName>
-    </file>
-    <file>
-      <guid>UmbracoCulturesController.cs</guid>
-      <orgPath>../src/Controllers/Api</orgPath>
-      <orgName>UmbracoCulturesController.cs</orgName>
-    </file>
-	
-  </files>
+  <files />
 
 </umbPackage>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>UmbracoCultures</id>
+    <version>1.0.0</version>
+    <title>UmbracoCultures</title>
+    <authors>David Barbosa</authors>
+    <owners>David Barbosa</owners>
+    <projectUrl>www.google.com</projectUrl>
+    <iconUrl>www.google.com</iconUrl>
+    <requireLicenseAcceptance>Yes</requireLicenseAcceptance>
+    <description>Package</description>
+    <summary>Summary</summary>
+    <copyright>2018</copyright>
+    <licenseUrl>www.google.com</licenseUrl>
+    <language>PT</language>
+    <tags></tags>
+    <dependencies>
+      <dependency id="UmbracoCms.Core" version="0.0.0" />
+    </dependencies>
+  </metadata>
+</package>

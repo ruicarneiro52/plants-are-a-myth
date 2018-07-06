@@ -71,7 +71,7 @@
 
   <!-- PATHS -->
   <PropertyGroup>
-    <BuildConfig>Debug</BuildConfig>
+    <BuildConfig>Release</BuildConfig>
     <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
     <CoreProjectDir>$(RootDir)\UmbracoCultures</CoreProjectDir>
     <BuildUmbDir>$(MSBuildProjectDirectory)\_umbraco</BuildUmbDir>
@@ -112,8 +112,8 @@
 	<!-- PREPARE FILES -->
 	<Target Name="PrepareFiles" DependsOnTargets="Compile">
 		<ItemGroup>
-			<BinFiles Include="$(CoreProjectDir)\Bin\$(BuildConfig)\Test.dll" />
-      <PdbFiles Include="$(CoreProjectDir)\Bin\$(BuildConfig)\Test.pdb" />
+			<!--<BinFiles Include="$(CoreProjectDir)\Bin\$(BuildConfig)\Test.dll" />
+      <PdbFiles Include="$(CoreProjectDir)\Bin\$(BuildConfig)\Test.pdb" />-->
       <SrcFiles Include="$(CoreProjectDir)\**\*.cs" Exclude="$(CoreProjectDir)\obj\**"/>
 			<PackageFile Include="$(MSBuildProjectDirectory)\package.xml" />
       <NuSpecFile Include="$(MSBuildProjectDirectory)\package.nuspec" />

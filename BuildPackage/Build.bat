@@ -9,4 +9,4 @@ Call npm install
 cd ..\BuildPackage\
 Call Tools\nuget.exe restore ..\UmbracoCultures.sln
 echo yo
-Call "%programfiles(x86)%\MSBuild\12.0\Bin\MsBuild.exe" package.proj
+Call "%programfiles(x86)%\MSBuild\14.0\Bin\MsBuild.exe" package.proj

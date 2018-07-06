@@ -217,3 +217,4 @@ C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Deb
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.csproj.CopyComplete
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.dll
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.pdb
+C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.csprojResolveAssemblyReference.cache

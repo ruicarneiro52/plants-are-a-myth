@@ -3,4 +3,7 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\</ReferencePath>
+  </PropertyGroup>
 </Project>

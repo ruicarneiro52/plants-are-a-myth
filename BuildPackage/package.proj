@@ -17,7 +17,7 @@
   <!-- SHARED PROPERTIES -->
   <PropertyGroup>
     <PackageName>AppVeyorUmbracoPackage</PackageName>
-    <MinUmbracoVersion>7.1.5</MinUmbracoVersion>
+    <MinUmbracoVersion>7.11.0</MinUmbracoVersion>
     <Readme>Soemthing fun for Umbraco</Readme>
     <AuthorName>The Umbraco Community</AuthorName>
     <AuthorUrl>http://our.umbraco.org</AuthorUrl>
@@ -82,7 +82,7 @@
   <!-- TARGETS -->
   <Target Name="GetProductVersion">
     <Error Condition="$(AbortBuild) == 'true'" Text="Aborting the build as the UMBRACO_PACKAGE_PRERELEASE_SUFFIX suffix is set 'rtm' but APPVEYOR_REPO_TAG is not 'true'" />
-    <GetProductVersion BuildVersion="1" BuildSuffix="$(UMBRACO_PACKAGE_PRERELEASE_SUFFIX)">
+    <GetProductVersion BuildVersion="1.0.0.0" BuildSuffix="$(UMBRACO_PACKAGE_PRERELEASE_SUFFIX)">
       <Output TaskParameter="ProductVersion" PropertyName="ProductVersion"/>
     </GetProductVersion>
   </Target>
@@ -117,7 +117,7 @@
       <SrcFiles Include="$(CoreProjectDir)\**\*.cs" Exclude="$(CoreProjectDir)\obj\**"/>
 			<PackageFile Include="$(MSBuildProjectDirectory)\package.xml" />
       <NuSpecFile Include="$(MSBuildProjectDirectory)\package.nuspec" />
-      <GruntProjectFiles Include="$(GruntProjectDir)\dist\**\*" />
+      
     </ItemGroup>
     <Copy SourceFiles="@(BinFiles)" DestinationFolder="$(BuildUmbDir)\bin" />
     <Copy SourceFiles="@(PackageFile)" DestinationFolder="$(BuildUmbDir)" />
@@ -126,10 +126,6 @@
     <Copy SourceFiles="@(SrcFiles)"
    DestinationFiles="@(SrcFiles->'$(BuildNuGetDir)\src\%(RecursiveDir)%(Filename)%(Extension)')" />
     <Copy SourceFiles="@(NuSpecFile)" DestinationFolder="$(BuildNuGetDir)" />
-    <Copy SourceFiles="@(GruntProjectFiles)"
-   DestinationFiles="@(GruntProjectFiles->'$(BuildUmbDir)\%(RecursiveDir)%(Filename)%(Extension)')" />
-    <Copy SourceFiles="@(GruntProjectFiles)"
-   DestinationFiles="@(GruntProjectFiles->'$(BuildNuGetDir)\Content\%(RecursiveDir)%(Filename)%(Extension)')" />    
   </Target>
 
   <!-- MANIFEST UMBRACO -->

@@ -15,7 +15,7 @@
         <language>en-GB</language>
         <tags>umbraco backend cultures</tags>
         <dependencies>
-          <dependency id="UmbracoCms.Core" version="7.4.0" />
+          <dependency id="UmbracoCms.Core" version="7.11.0" />
         </dependencies>
     </metadata>    
 </package>

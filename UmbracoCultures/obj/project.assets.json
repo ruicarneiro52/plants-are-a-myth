@@ -375,7 +375,7 @@
           "lib/net45/MySql.Data.dll": {}
         }
       },
-      "Newtonsoft.Json/10.0.2": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -383,6 +383,9 @@
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
         }
+      },
+      "NuGet.CommandLine/4.6.2": {
+        "type": "package"
       },
       "OpenCover/4.6.519": {
         "type": "package"
@@ -423,16 +426,29 @@
           "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll": {}
         }
       },
-      "UmbracoCms.Core/7.6.1": {
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "UmbracoCms.Core/7.11.1": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "[3.3.1, 4.0.0)",
-          "ClientDependency": "[1.9.2, 2.0.0)",
+          "ClientDependency": "[1.9.6, 2.0.0)",
           "ClientDependency-Mvc5": "[1.8.0, 2.0.0)",
-          "Examine": "[0.1.82, 1.0.0)",
+          "Examine": "[0.1.89, 1.0.0)",
           "HtmlAgilityPack": "[1.4.9.5, 2.0.0)",
-          "ImageProcessor": "[2.5.3, 3.0.0)",
-          "ImageProcessor.Web": "[4.8.3, 5.0.0)",
+          "ImageProcessor": "[2.5.6, 3.0.0)",
+          "ImageProcessor.Web": "[4.8.7, 5.0.0)",
           "Log4Net.Async": "[2.0.4, 3.0.0)",
           "Lucene.Net": "[2.9.4.1, 3.0.0)",
           "Markdown": "[1.14.7, 2.0.0)",
@@ -440,17 +456,16 @@
           "Microsoft.AspNet.Mvc": "[5.2.3, 6.0.0)",
           "Microsoft.AspNet.SignalR.Core": "[2.2.1, 3.0.0)",
           "Microsoft.AspNet.WebApi": "[5.2.3, 6.0.0)",
-          "Microsoft.Owin.Host.SystemWeb": "[3.0.1, 4.0.0)",
-          "Microsoft.Owin.Security.Cookies": "[3.0.1, 4.0.0)",
-          "Microsoft.Owin.Security.OAuth": "[3.0.1, 4.0.0)",
+          "Microsoft.Owin.Host.SystemWeb": "[3.1.0, 4.0.0)",
+          "Microsoft.Owin.Security.Cookies": "[3.1.0, 4.0.0)",
+          "Microsoft.Owin.Security.OAuth": "[3.1.0, 4.0.0)",
           "MiniProfiler": "[2.1.0, 3.0.0)",
           "MySql.Data": "[6.9.9, 7.0.0)",
           "Newtonsoft.Json": "[10.0.2, 11.0.0)",
-          "SharpZipLib": "[0.86.0, 1.0.0)",
           "System.Threading.Tasks.Dataflow": "[4.7.0, 5.0.0)",
+          "System.ValueTuple": "[4.4.0, 5.0.0)",
           "log4net": "[2.0.8, 3.0.0)",
-          "semver": "[1.1.2, 3.0.0)",
-          "xmlrpcnet": "[2.5.0, 3.0.0)"
+          "semver": "[1.1.2, 3.0.0)"
         },
         "compile": {
           "lib/net45/Microsoft.ApplicationBlocks.Data.dll": {},
@@ -886,7 +901,7 @@
           "lib/net45/MySql.Data.dll": {}
         }
       },
-      "Newtonsoft.Json/10.0.2": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -894,6 +909,9 @@
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
         }
+      },
+      "NuGet.CommandLine/4.6.2": {
+        "type": "package"
       },
       "OpenCover/4.6.519": {
         "type": "package"
@@ -934,16 +952,29 @@
           "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll": {}
         }
       },
-      "UmbracoCms.Core/7.6.1": {
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "UmbracoCms.Core/7.11.1": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "[3.3.1, 4.0.0)",
-          "ClientDependency": "[1.9.2, 2.0.0)",
+          "ClientDependency": "[1.9.6, 2.0.0)",
           "ClientDependency-Mvc5": "[1.8.0, 2.0.0)",
-          "Examine": "[0.1.82, 1.0.0)",
+          "Examine": "[0.1.89, 1.0.0)",
           "HtmlAgilityPack": "[1.4.9.5, 2.0.0)",
-          "ImageProcessor": "[2.5.3, 3.0.0)",
-          "ImageProcessor.Web": "[4.8.3, 5.0.0)",
+          "ImageProcessor": "[2.5.6, 3.0.0)",
+          "ImageProcessor.Web": "[4.8.7, 5.0.0)",
           "Log4Net.Async": "[2.0.4, 3.0.0)",
           "Lucene.Net": "[2.9.4.1, 3.0.0)",
           "Markdown": "[1.14.7, 2.0.0)",
@@ -951,17 +982,16 @@
           "Microsoft.AspNet.Mvc": "[5.2.3, 6.0.0)",
           "Microsoft.AspNet.SignalR.Core": "[2.2.1, 3.0.0)",
           "Microsoft.AspNet.WebApi": "[5.2.3, 6.0.0)",
-          "Microsoft.Owin.Host.SystemWeb": "[3.0.1, 4.0.0)",
-          "Microsoft.Owin.Security.Cookies": "[3.0.1, 4.0.0)",
-          "Microsoft.Owin.Security.OAuth": "[3.0.1, 4.0.0)",
+          "Microsoft.Owin.Host.SystemWeb": "[3.1.0, 4.0.0)",
+          "Microsoft.Owin.Security.Cookies": "[3.1.0, 4.0.0)",
+          "Microsoft.Owin.Security.OAuth": "[3.1.0, 4.0.0)",
           "MiniProfiler": "[2.1.0, 3.0.0)",
           "MySql.Data": "[6.9.9, 7.0.0)",
           "Newtonsoft.Json": "[10.0.2, 11.0.0)",
-          "SharpZipLib": "[0.86.0, 1.0.0)",
           "System.Threading.Tasks.Dataflow": "[4.7.0, 5.0.0)",
+          "System.ValueTuple": "[4.4.0, 5.0.0)",
           "log4net": "[2.0.8, 3.0.0)",
-          "semver": "[1.1.2, 3.0.0)",
-          "xmlrpcnet": "[2.5.0, 3.0.0)"
+          "semver": "[1.1.2, 3.0.0)"
         },
         "compile": {
           "lib/net45/Microsoft.ApplicationBlocks.Data.dll": {},
@@ -1397,7 +1427,7 @@
           "lib/net45/MySql.Data.dll": {}
         }
       },
-      "Newtonsoft.Json/10.0.2": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -1405,6 +1435,9 @@
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
         }
+      },
+      "NuGet.CommandLine/4.6.2": {
+        "type": "package"
       },
       "OpenCover/4.6.519": {
         "type": "package"
@@ -1445,16 +1478,29 @@
           "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll": {}
         }
       },
-      "UmbracoCms.Core/7.6.1": {
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "UmbracoCms.Core/7.11.1": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "[3.3.1, 4.0.0)",
-          "ClientDependency": "[1.9.2, 2.0.0)",
+          "ClientDependency": "[1.9.6, 2.0.0)",
           "ClientDependency-Mvc5": "[1.8.0, 2.0.0)",
-          "Examine": "[0.1.82, 1.0.0)",
+          "Examine": "[0.1.89, 1.0.0)",
           "HtmlAgilityPack": "[1.4.9.5, 2.0.0)",
-          "ImageProcessor": "[2.5.3, 3.0.0)",
-          "ImageProcessor.Web": "[4.8.3, 5.0.0)",
+          "ImageProcessor": "[2.5.6, 3.0.0)",
+          "ImageProcessor.Web": "[4.8.7, 5.0.0)",
           "Log4Net.Async": "[2.0.4, 3.0.0)",
           "Lucene.Net": "[2.9.4.1, 3.0.0)",
           "Markdown": "[1.14.7, 2.0.0)",
@@ -1462,17 +1508,16 @@
           "Microsoft.AspNet.Mvc": "[5.2.3, 6.0.0)",
           "Microsoft.AspNet.SignalR.Core": "[2.2.1, 3.0.0)",
           "Microsoft.AspNet.WebApi": "[5.2.3, 6.0.0)",
-          "Microsoft.Owin.Host.SystemWeb": "[3.0.1, 4.0.0)",
-          "Microsoft.Owin.Security.Cookies": "[3.0.1, 4.0.0)",
-          "Microsoft.Owin.Security.OAuth": "[3.0.1, 4.0.0)",
+          "Microsoft.Owin.Host.SystemWeb": "[3.1.0, 4.0.0)",
+          "Microsoft.Owin.Security.Cookies": "[3.1.0, 4.0.0)",
+          "Microsoft.Owin.Security.OAuth": "[3.1.0, 4.0.0)",
           "MiniProfiler": "[2.1.0, 3.0.0)",
           "MySql.Data": "[6.9.9, 7.0.0)",
           "Newtonsoft.Json": "[10.0.2, 11.0.0)",
-          "SharpZipLib": "[0.86.0, 1.0.0)",
           "System.Threading.Tasks.Dataflow": "[4.7.0, 5.0.0)",
+          "System.ValueTuple": "[4.4.0, 5.0.0)",
           "log4net": "[2.0.8, 3.0.0)",
-          "semver": "[1.1.2, 3.0.0)",
-          "xmlrpcnet": "[2.5.0, 3.0.0)"
+          "semver": "[1.1.2, 3.0.0)"
         },
         "compile": {
           "lib/net45/Microsoft.ApplicationBlocks.Data.dll": {},
@@ -1908,7 +1953,7 @@
           "lib/net45/MySql.Data.dll": {}
         }
       },
-      "Newtonsoft.Json/10.0.2": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -1916,6 +1961,9 @@
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
         }
+      },
+      "NuGet.CommandLine/4.6.2": {
+        "type": "package"
       },
       "OpenCover/4.6.519": {
         "type": "package"
@@ -1956,16 +2004,29 @@
           "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll": {}
         }
       },
-      "UmbracoCms.Core/7.6.1": {
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "UmbracoCms.Core/7.11.1": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "[3.3.1, 4.0.0)",
-          "ClientDependency": "[1.9.2, 2.0.0)",
+          "ClientDependency": "[1.9.6, 2.0.0)",
           "ClientDependency-Mvc5": "[1.8.0, 2.0.0)",
-          "Examine": "[0.1.82, 1.0.0)",
+          "Examine": "[0.1.89, 1.0.0)",
           "HtmlAgilityPack": "[1.4.9.5, 2.0.0)",
-          "ImageProcessor": "[2.5.3, 3.0.0)",
-          "ImageProcessor.Web": "[4.8.3, 5.0.0)",
+          "ImageProcessor": "[2.5.6, 3.0.0)",
+          "ImageProcessor.Web": "[4.8.7, 5.0.0)",
           "Log4Net.Async": "[2.0.4, 3.0.0)",
           "Lucene.Net": "[2.9.4.1, 3.0.0)",
           "Markdown": "[1.14.7, 2.0.0)",
@@ -1973,17 +2034,16 @@
           "Microsoft.AspNet.Mvc": "[5.2.3, 6.0.0)",
           "Microsoft.AspNet.SignalR.Core": "[2.2.1, 3.0.0)",
           "Microsoft.AspNet.WebApi": "[5.2.3, 6.0.0)",
-          "Microsoft.Owin.Host.SystemWeb": "[3.0.1, 4.0.0)",
-          "Microsoft.Owin.Security.Cookies": "[3.0.1, 4.0.0)",
-          "Microsoft.Owin.Security.OAuth": "[3.0.1, 4.0.0)",
+          "Microsoft.Owin.Host.SystemWeb": "[3.1.0, 4.0.0)",
+          "Microsoft.Owin.Security.Cookies": "[3.1.0, 4.0.0)",
+          "Microsoft.Owin.Security.OAuth": "[3.1.0, 4.0.0)",
           "MiniProfiler": "[2.1.0, 3.0.0)",
           "MySql.Data": "[6.9.9, 7.0.0)",
           "Newtonsoft.Json": "[10.0.2, 11.0.0)",
-          "SharpZipLib": "[0.86.0, 1.0.0)",
           "System.Threading.Tasks.Dataflow": "[4.7.0, 5.0.0)",
+          "System.ValueTuple": "[4.4.0, 5.0.0)",
           "log4net": "[2.0.8, 3.0.0)",
-          "semver": "[1.1.2, 3.0.0)",
-          "xmlrpcnet": "[2.5.0, 3.0.0)"
+          "semver": "[1.1.2, 3.0.0)"
         },
         "compile": {
           "lib/net45/Microsoft.ApplicationBlocks.Data.dll": {},
@@ -2518,10 +2578,10 @@
         "mysql.data.nuspec"
       ]
     },
-    "Newtonsoft.Json/10.0.2": {
-      "sha512": "iwElSU2IXmwGvytJsezyDML2ZWDkG2JzTYzlU/BNlmzMdlmRvbnwITsGGY74gwVEpDli1UdOLkMT7/3jxWvXzA==",
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
-      "path": "newtonsoft.json/10.0.2",
+      "path": "newtonsoft.json/11.0.2",
       "files": [
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -2536,13 +2596,25 @@
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wpa81+wp8/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wpa81+wp8/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml",
-        "newtonsoft.json.10.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "tools/install.ps1"
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "NuGet.CommandLine/4.6.2": {
+      "sha512": "URn63QEe6RqFaC1bAxDf6VznK6mEekuFG84cWYvvZG+/Y8WHyV24dJT1MODVRmLoaRaq+1Riv6EQCDAGhnppcw==",
+      "type": "package",
+      "path": "nuget.commandline/4.6.2",
+      "files": [
+        ".signature.p7s",
+        "nuget.commandline.4.6.2.nupkg.sha512",
+        "nuget.commandline.nuspec",
+        "tools/NuGet.exe"
       ]
     },
     "OpenCover/4.6.519": {
@@ -2650,10 +2722,53 @@
         "system.threading.tasks.dataflow.nuspec"
       ]
     },
-    "UmbracoCms.Core/7.6.1": {
-      "sha512": "oIGgfKePzbGtnYXWzSyN352wJqSsMu0I2imGked8SnJTi17rN+8yMf9PrKigMYMPNYWQTMO5ObQOniVFM3w++A==",
+    "System.ValueTuple/4.4.0": {
+      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
       "type": "package",
-      "path": "umbracocms.core/7.6.1",
+      "path": "system.valuetuple/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net461/System.ValueTuple.xml",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "UmbracoCms.Core/7.11.1": {
+      "sha512": "tqVO0SeWmNi3byWOrKYq5gxHHs658F5Do+KJ6eclVmgKLbqGqPGBf8SukTYy91SKAqlxhs938zf4WtjwN+GE6g==",
+      "type": "package",
+      "path": "umbracocms.core/7.11.1",
       "files": [
         "lib/net45/Microsoft.ApplicationBlocks.Data.dll",
         "lib/net45/SQLCE4Umbraco.dll",
@@ -2687,7 +2802,7 @@
         "lib/net45/umbraco.providers.xml",
         "lib/net45/umbraco.xml",
         "tools/install.ps1",
-        "umbracocms.core.7.6.1.nupkg.sha512",
+        "umbracocms.core.7.11.1.nupkg.sha512",
         "umbracocms.core.nuspec"
       ]
     },
@@ -2747,12 +2862,13 @@
       "Microsoft.Web.Infrastructure >= 1.0.0",
       "MiniProfiler >= 2.1.0",
       "MySql.Data >= 6.9.9",
-      "Newtonsoft.Json >= 10.0.2",
+      "Newtonsoft.Json >= 11.0.2",
+      "NuGet.CommandLine >= 4.6.2",
       "OpenCover >= 4.6.519",
       "Owin >= 1.0.0",
       "SharpZipLib >= 0.86.0",
       "System.Threading.Tasks.Dataflow >= 4.7.0",
-      "UmbracoCms.Core >= 7.6.1",
+      "UmbracoCms.Core >= 7.11.1",
       "UrlRewritingNet >= 2.0.7",
       "log4net >= 2.0.8",
       "semver >= 1.1.2",
@@ -2760,20 +2876,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\David.Barbosa\\.nuget\\packages\\": {}
+    "C:\\Users\\rui.carneiro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David.Barbosa\\Documents\\Visual Studio 2017\\Projects\\Andrina Plugins (MVP)\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures.csproj",
+      "projectUniqueName": "C:\\Users\\rui.carneiro\\Documents\\GitHub\\plants-are-a-myth\\UmbracoCultures\\UmbracoCultures.csproj",
       "projectName": "UmbracoCultures",
-      "projectPath": "C:\\Users\\David.Barbosa\\Documents\\Visual Studio 2017\\Projects\\Andrina Plugins (MVP)\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures.csproj",
-      "packagesPath": "C:\\Users\\David.Barbosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David.Barbosa\\Documents\\Visual Studio 2017\\Projects\\Andrina Plugins (MVP)\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures\\obj\\",
+      "projectPath": "C:\\Users\\rui.carneiro\\Documents\\GitHub\\plants-are-a-myth\\UmbracoCultures\\UmbracoCultures.csproj",
+      "packagesPath": "C:\\Users\\rui.carneiro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rui.carneiro\\Documents\\GitHub\\plants-are-a-myth\\UmbracoCultures\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\David.Barbosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rui.carneiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2781,6 +2897,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\rui.carneiro\\Desktop": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2922,7 +3039,11 @@
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[10.0.2, )"
+            "version": "[11.0.2, )"
+          },
+          "NuGet.CommandLine": {
+            "target": "Package",
+            "version": "[4.6.2, )"
           },
           "OpenCover": {
             "target": "Package",
@@ -2942,7 +3063,7 @@
           },
           "UmbracoCms.Core": {
             "target": "Package",
-            "version": "[7.6.1, )"
+            "version": "[7.11.1, )"
           },
           "UrlRewritingNet": {
             "target": "Package",
@@ -2974,5 +3095,111 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: UmbracoCms.Core 7.11.1 requires Newtonsoft.Json (>= 10.0.2 && < 11.0.0) but version Newtonsoft.Json 11.0.2 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Owin.Security.Cookies from 3.1.0 to 3.0.1. Reference the package directly from the project to select a different version. \r\n UmbracoCultures -> UmbracoCms.Core 7.11.1 -> Microsoft.Owin.Security.Cookies (>= 3.1.0 && < 4.0.0) \r\n UmbracoCultures -> Microsoft.Owin.Security.Cookies (>= 3.0.1)",
+      "libraryId": "Microsoft.Owin.Security.Cookies",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Owin.Security.OAuth from 3.1.0 to 3.0.1. Reference the package directly from the project to select a different version. \r\n UmbracoCultures -> UmbracoCms.Core 7.11.1 -> Microsoft.Owin.Security.OAuth (>= 3.1.0 && < 4.0.0) \r\n UmbracoCultures -> Microsoft.Owin.Security.OAuth (>= 3.0.1)",
+      "libraryId": "Microsoft.Owin.Security.OAuth",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Owin.Host.SystemWeb from 3.1.0 to 3.0.1. Reference the package directly from the project to select a different version. \r\n UmbracoCultures -> UmbracoCms.Core 7.11.1 -> Microsoft.Owin.Host.SystemWeb (>= 3.1.0 && < 4.0.0) \r\n UmbracoCultures -> Microsoft.Owin.Host.SystemWeb (>= 3.0.1)",
+      "libraryId": "Microsoft.Owin.Host.SystemWeb",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: ClientDependency from 1.9.6 to 1.9.2. Reference the package directly from the project to select a different version. \r\n UmbracoCultures -> UmbracoCms.Core 7.11.1 -> ClientDependency (>= 1.9.6 && < 2.0.0) \r\n UmbracoCultures -> ClientDependency (>= 1.9.2)",
+      "libraryId": "ClientDependency",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Examine from 0.1.89 to 0.1.82. Reference the package directly from the project to select a different version. \r\n UmbracoCultures -> UmbracoCms.Core 7.11.1 -> Examine (>= 0.1.89 && < 1.0.0) \r\n UmbracoCultures -> Examine (>= 0.1.82)",
+      "libraryId": "Examine",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: ImageProcessor from 2.5.6 to 2.5.3. Reference the package directly from the project to select a different version. \r\n UmbracoCultures -> UmbracoCms.Core 7.11.1 -> ImageProcessor (>= 2.5.6 && < 3.0.0) \r\n UmbracoCultures -> ImageProcessor (>= 2.5.3)",
+      "libraryId": "ImageProcessor",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: ImageProcessor.Web from 4.8.7 to 4.8.3. Reference the package directly from the project to select a different version. \r\n UmbracoCultures -> UmbracoCms.Core 7.11.1 -> ImageProcessor.Web (>= 4.8.7 && < 5.0.0) \r\n UmbracoCultures -> ImageProcessor.Web (>= 4.8.3)",
+      "libraryId": "ImageProcessor.Web",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    }
+  ]
 }

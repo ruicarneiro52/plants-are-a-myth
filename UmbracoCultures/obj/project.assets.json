@@ -2760,20 +2760,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rui.carneiro\\.nuget\\packages\\": {}
+    "C:\\Users\\David.Barbosa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rui.carneiro\\Desktop\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures.csproj",
+      "projectUniqueName": "C:\\Users\\David.Barbosa\\Documents\\Visual Studio 2017\\Projects\\Andrina Plugins (MVP)\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures.csproj",
       "projectName": "UmbracoCultures",
-      "projectPath": "C:\\Users\\rui.carneiro\\Desktop\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures.csproj",
-      "packagesPath": "C:\\Users\\rui.carneiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rui.carneiro\\Desktop\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures\\obj\\",
+      "projectPath": "C:\\Users\\David.Barbosa\\Documents\\Visual Studio 2017\\Projects\\Andrina Plugins (MVP)\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures.csproj",
+      "packagesPath": "C:\\Users\\David.Barbosa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\David.Barbosa\\Documents\\Visual Studio 2017\\Projects\\Andrina Plugins (MVP)\\UmbracoCultures\\UmbracoCultures\\UmbracoCultures\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\rui.carneiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\David.Barbosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2781,7 +2781,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\rui.carneiro\\Desktop": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

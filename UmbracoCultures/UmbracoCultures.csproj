@@ -40,20 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Controllers\Api\UmbracoCulturesController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
-    <None Include="App_Plugin\package.manifest" />
-    <None Include="package-lock.json" />
-    <None Include="package.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Plugin\package.xml" />
-    <Content Include="App_Plugin\UmbracoCultures.controller.js" />
-    <Content Include="App_Plugin\UmbracoCultures.html" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper">
@@ -182,6 +170,15 @@
     <PackageReference Include="xmlrpcnet">
       <Version>2.5.0</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Plugins\UmbracoCultures\package.manifest" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Plugins\UmbracoCultures\package.xml" />
+    <Content Include="App_Plugins\UmbracoCultures\UmbracoCultures.controller.js" />
+    <Content Include="App_Plugins\UmbracoCultures\UmbracoCultures.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

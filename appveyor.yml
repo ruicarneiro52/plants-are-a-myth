@@ -5,6 +5,7 @@ version: 1.1.6.{build}
 # example UMBRACO_PACKAGE_PRERELEASE_SUFFIX=beta
 init:
   - set UMBRACO_PACKAGE_PRERELEASE_SUFFIX=
+image: Visual Studio 2017
 
 install:
   - cmd: npm install -g grunt-cli

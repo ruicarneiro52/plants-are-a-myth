@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <info>
+    <package>
+      <name>UmbracoCultures</name>
+      <version>1.0.0</version>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>http://our.umbraco.org/projects/</url>
+      <requirements>
+        <major>7</major>
+        <minor>4</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>David Barbosa</name>
+      <website>http://opensource.org/</website>
+    </author>
+    <readme>
+      <![CDATA[Gets Umbraco backend cultures. ]]>
+    </readme>
+  </info>
+
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+
+  <Actions/>
+
+  <control />
+
+  <files />
+
+</umbPackage>
+

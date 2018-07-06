@@ -156,17 +156,17 @@
           "lib/net45/Microsoft.AspNet.Identity.Owin.dll": {}
         }
       },
-      "Microsoft.AspNet.Mvc/5.2.3": {
+      "Microsoft.AspNet.Mvc/3.0.50813.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
-          "Microsoft.AspNet.WebPages": "[3.2.3, 3.3.0)"
+          "Microsoft.AspNet.Razor": "1.0.20105.408",
+          "Microsoft.AspNet.WebPages": "1.0.20105.408"
         },
         "compile": {
-          "lib/net45/System.Web.Mvc.dll": {}
+          "lib/net40/System.Web.Mvc.dll": {}
         },
         "runtime": {
-          "lib/net45/System.Web.Mvc.dll": {}
+          "lib/net40/System.Web.Mvc.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.FixedDisplayModes/5.0.0": {
@@ -682,17 +682,17 @@
           "lib/net45/Microsoft.AspNet.Identity.Owin.dll": {}
         }
       },
-      "Microsoft.AspNet.Mvc/5.2.3": {
+      "Microsoft.AspNet.Mvc/3.0.50813.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
-          "Microsoft.AspNet.WebPages": "[3.2.3, 3.3.0)"
+          "Microsoft.AspNet.Razor": "1.0.20105.408",
+          "Microsoft.AspNet.WebPages": "1.0.20105.408"
         },
         "compile": {
-          "lib/net45/System.Web.Mvc.dll": {}
+          "lib/net40/System.Web.Mvc.dll": {}
         },
         "runtime": {
-          "lib/net45/System.Web.Mvc.dll": {}
+          "lib/net40/System.Web.Mvc.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.FixedDisplayModes/5.0.0": {
@@ -1208,17 +1208,17 @@
           "lib/net45/Microsoft.AspNet.Identity.Owin.dll": {}
         }
       },
-      "Microsoft.AspNet.Mvc/5.2.3": {
+      "Microsoft.AspNet.Mvc/3.0.50813.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
-          "Microsoft.AspNet.WebPages": "[3.2.3, 3.3.0)"
+          "Microsoft.AspNet.Razor": "1.0.20105.408",
+          "Microsoft.AspNet.WebPages": "1.0.20105.408"
         },
         "compile": {
-          "lib/net45/System.Web.Mvc.dll": {}
+          "lib/net40/System.Web.Mvc.dll": {}
         },
         "runtime": {
-          "lib/net45/System.Web.Mvc.dll": {}
+          "lib/net40/System.Web.Mvc.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.FixedDisplayModes/5.0.0": {
@@ -1734,17 +1734,17 @@
           "lib/net45/Microsoft.AspNet.Identity.Owin.dll": {}
         }
       },
-      "Microsoft.AspNet.Mvc/5.2.3": {
+      "Microsoft.AspNet.Mvc/3.0.50813.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
-          "Microsoft.AspNet.WebPages": "[3.2.3, 3.3.0)"
+          "Microsoft.AspNet.Razor": "1.0.20105.408",
+          "Microsoft.AspNet.WebPages": "1.0.20105.408"
         },
         "compile": {
-          "lib/net45/System.Web.Mvc.dll": {}
+          "lib/net40/System.Web.Mvc.dll": {}
         },
         "runtime": {
-          "lib/net45/System.Web.Mvc.dll": {}
+          "lib/net40/System.Web.Mvc.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.FixedDisplayModes/5.0.0": {
@@ -2354,16 +2354,15 @@
         "microsoft.aspnet.identity.owin.nuspec"
       ]
     },
-    "Microsoft.AspNet.Mvc/5.2.3": {
-      "sha512": "i8jZf5QrbcFmjiYWRD7o7qTak/oXKxV80MgP4cZ33A8GC0RBtBIdZ1VHaloGUg+qsHUz5rVkGpwenM+ugDz5PA==",
+    "Microsoft.AspNet.Mvc/3.0.50813.1": {
+      "sha512": "0WtbRi7UYtd8uzq34VlMsA5Y4qFsY+56iwaSTQHAt4kenxKlA0wqn52L2r4jTl+BLe/SSujwrAVIvLRsLuR8ZQ==",
       "type": "package",
-      "path": "microsoft.aspnet.mvc/5.2.3",
+      "path": "microsoft.aspnet.mvc/3.0.50813.1",
       "files": [
-        "Content/Web.config.install.xdt",
-        "Content/Web.config.uninstall.xdt",
-        "lib/net45/System.Web.Mvc.dll",
-        "lib/net45/System.Web.Mvc.xml",
-        "microsoft.aspnet.mvc.5.2.3.nupkg.sha512",
+        "content/Web.config.install.xdt",
+        "content/Web.config.uninstall.xdt",
+        "lib/net40/System.Web.Mvc.dll",
+        "microsoft.aspnet.mvc.3.0.50813.1.nupkg.sha512",
         "microsoft.aspnet.mvc.nuspec"
       ]
     },
@@ -2843,7 +2842,7 @@
       "Markdown >= 1.14.7",
       "Microsoft.AspNet.Identity.Core >= 2.2.1",
       "Microsoft.AspNet.Identity.Owin >= 2.2.1",
-      "Microsoft.AspNet.Mvc >= 5.2.3",
+      "Microsoft.AspNet.Mvc >= 3.0.50813.1",
       "Microsoft.AspNet.Mvc.FixedDisplayModes >= 5.0.0",
       "Microsoft.AspNet.Razor >= 3.2.3",
       "Microsoft.AspNet.SignalR.Core >= 2.2.1",
@@ -2963,7 +2962,7 @@
           },
           "Microsoft.AspNet.Mvc": {
             "target": "Package",
-            "version": "[5.2.3, )"
+            "version": "[3.0.50813.1, )"
           },
           "Microsoft.AspNet.Mvc.FixedDisplayModes": {
             "target": "Package",
@@ -3103,6 +3102,45 @@
       "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: UmbracoCms.Core 7.11.1 requires Newtonsoft.Json (>= 10.0.2 && < 11.0.0) but version Newtonsoft.Json 11.0.2 was resolved.",
       "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.AspNet.Mvc from 5.0.0 to 3.0.50813.1. Reference the package directly from the project to select a different version. \r\n UmbracoCultures -> ClientDependency-Mvc5 1.8.0 -> Microsoft.AspNet.Mvc (>= 5.0.0) \r\n UmbracoCultures -> Microsoft.AspNet.Mvc (>= 3.0.50813.1)",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.AspNet.Mvc from 5.0.0 to 3.0.50813.1. Reference the package directly from the project to select a different version. \r\n UmbracoCultures -> Microsoft.AspNet.Mvc.FixedDisplayModes 5.0.0 -> Microsoft.AspNet.Mvc (>= 5.0.0) \r\n UmbracoCultures -> Microsoft.AspNet.Mvc (>= 3.0.50813.1)",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.AspNet.Mvc from 5.2.3 to 3.0.50813.1. Reference the package directly from the project to select a different version. \r\n UmbracoCultures -> UmbracoCms.Core 7.11.1 -> Microsoft.AspNet.Mvc (>= 5.2.3 && < 6.0.0) \r\n UmbracoCultures -> Microsoft.AspNet.Mvc (>= 3.0.50813.1)",
+      "libraryId": "Microsoft.AspNet.Mvc",
       "targetGraphs": [
         ".NETFramework,Version=v4.6.1",
         ".NETFramework,Version=v4.6.1/win",

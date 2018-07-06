@@ -143,6 +143,8 @@ C:\Users\David.Barbosa\Documents\Visual Studio 2017\Projects\Andrina Plugins (MV
 C:\Users\David.Barbosa\Documents\Visual Studio 2017\Projects\Andrina Plugins (MVP)\UmbracoCultures\UmbracoCultures\UmbracoCultures\obj\Debug\UmbracoCultures.dll
 C:\Users\David.Barbosa\Documents\Visual Studio 2017\Projects\Andrina Plugins (MVP)\UmbracoCultures\UmbracoCultures\UmbracoCultures\obj\Debug\UmbracoCultures.pdb
 C:\Users\David.Barbosa\Documents\Visual Studio 2017\Projects\Andrina Plugins (MVP)\UmbracoCultures\UmbracoCultures\UmbracoCultures\obj\Debug\UmbracoCultures.csprojAssemblyReference.cache
+C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.csprojAssemblyReference.cache
+C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.csproj.CoreCompileInputs.cache
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\UmbracoCultures.dll.config
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\UmbracoCultures.dll
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\UmbracoCultures.pdb
@@ -166,7 +168,6 @@ C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Deb
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\MarkdownSharp.dll
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\System.Web.Mvc.dll
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\System.Web.Razor.dll
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\System.Net.Http.Formatting.dll
@@ -213,8 +214,6 @@ C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Deb
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\umbraco.providers.dll
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\UrlRewritingNet.UrlRewriter.dll
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\bin\Debug\CookComputing.XmlRpcV2.dll
-C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.csprojAssemblyReference.cache
-C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.csproj.CoreCompileInputs.cache
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.csproj.CopyComplete
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.dll
 C:\Users\rui.carneiro\Documents\GitHub\plants-are-a-myth\UmbracoCultures\obj\Debug\UmbracoCultures.pdb

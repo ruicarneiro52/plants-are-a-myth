@@ -71,7 +71,7 @@
 
   <!-- PATHS -->
   <PropertyGroup>
-    <BuildConfig>Release</BuildConfig>
+    <BuildConfig>Debug</BuildConfig>
     <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
     <CoreProjectDir>$(RootDir)\UmbracoCultures</CoreProjectDir>
     <BuildUmbDir>$(MSBuildProjectDirectory)\_umbraco</BuildUmbDir>

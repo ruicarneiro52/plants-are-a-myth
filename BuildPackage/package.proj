@@ -17,7 +17,7 @@
   <!-- SHARED PROPERTIES -->
   <PropertyGroup>
     <PackageName>AppVeyorUmbracoPackage</PackageName>
-    <MinUmbracoVersion>7.11.0</MinUmbracoVersion>
+    <MinUmbracoVersion>7.4.0</MinUmbracoVersion>
     <Readme>Soemthing fun for Umbraco</Readme>
     <AuthorName>The Umbraco Community</AuthorName>
     <AuthorUrl>http://our.umbraco.org</AuthorUrl>
@@ -77,6 +77,7 @@
     <BuildUmbDir>$(MSBuildProjectDirectory)\_umbraco</BuildUmbDir>
     <BuildNuGetDir>$(MSBuildProjectDirectory)\_nuget</BuildNuGetDir>
     <ArtifactsDir>$(MSBuildProjectDirectory)\artifacts</ArtifactsDir>
+	<PropertyEditorProjectDir>$(RootDir)\UmbracoCultures\App_Plugins</PropertyEditorProjectDir>
   </PropertyGroup>
 
   <!-- TARGETS -->
@@ -99,9 +100,9 @@
 
     <!-- UPDATE PROJECT ASSEMBLEY VERSION -->
   <Target Name="UpdateAssemblyInfo" DependsOnTargets="Clean">
-    <FileUpdate Encoding="ASCII" Files="$(CoreProjectDir)\Properties\AssemblyInfo.cs" Regex="AssemblyVersion\(&quot;.*&quot;\)\]" ReplacementText="AssemblyVersion(&quot;$(FileVersion)&quot;)]" />
-    <FileUpdate Encoding="ASCII" Files="$(CoreProjectDir)\Properties\AssemblyInfo.cs" Regex="AssemblyFileVersion\(&quot;.*&quot;\)\]" ReplacementText="AssemblyFileVersion(&quot;$(FileVersion)&quot;)]" />
-    <FileUpdate Encoding="ASCII" Files="$(CoreProjectDir)\Properties\AssemblyInfo.cs" Regex="AssemblyInformationalVersion\(&quot;.*&quot;\)\]" ReplacementText="AssemblyInformationalVersion(&quot;$(ProductVersion)&quot;)]" />
+    <!--<FileUpdate Encoding="ASCII" Files="$(CoreProjectDir)\Properties\AssemblyInfo.cs" Regex="AssemblyVersion\(&quot;.*&quot;\)\]" ReplacementText="AssemblyVersion(&quot;$(FileVersion)&quot;)]" />-->
+    <!--<FileUpdate Encoding="ASCII" Files="$(CoreProjectDir)\Properties\AssemblyInfo.cs" Regex="AssemblyFileVersion\(&quot;.*&quot;\)\]" ReplacementText="AssemblyFileVersion(&quot;$(FileVersion)&quot;)]" />-->
+    <!--<FileUpdate Encoding="ASCII" Files="$(CoreProjectDir)\Properties\AssemblyInfo.cs" Regex="AssemblyInformationalVersion\(&quot;.*&quot;\)\]" ReplacementText="AssemblyInformationalVersion(&quot;$(ProductVersion)&quot;)]" />-->
   </Target>
 
 	<!-- COMPILE -->
@@ -112,8 +113,8 @@
 	<!-- PREPARE FILES -->
 	<Target Name="PrepareFiles" DependsOnTargets="Compile">
 		<ItemGroup>
-			<!--<BinFiles Include="$(CoreProjectDir)\Bin\$(BuildConfig)\Test.dll" />
-      <PdbFiles Include="$(CoreProjectDir)\Bin\$(BuildConfig)\Test.pdb" />-->
+			<BinFiles Include="$(CoreProjectDir)\Bin\$(BuildConfig)\UmbracoCultures.dll" />
+      <PdbFiles Include="$(CoreProjectDir)\Bin\$(BuildConfig)\UmbracoCultures.pdb" />
       <SrcFiles Include="$(CoreProjectDir)\**\*.cs" Exclude="$(CoreProjectDir)\obj\**"/>
 			<PackageFile Include="$(MSBuildProjectDirectory)\package.xml" />
       <NuSpecFile Include="$(MSBuildProjectDirectory)\package.nuspec" />
@@ -136,7 +137,7 @@
     <ManifestUpdate
 			ManifestFile="$(BuildUmbDir)\package.xml"
 			WorkingDirectory="$(BuildUmbDir)"
-			MinimumRequiredUmbracoVersion="$(MinUmbracoVersion)"
+			
 			PackageName="$(PackageName)"
 			PackageVersion="$(ProductVersion)"
 			AuthorName="$(AuthorName)"
@@ -144,7 +145,7 @@
 			Readme="$(Readme)"
 			PackageLicenseName="$(PackageLicenseName)"
 			PackageLicenseUrl="$(PackageLicenseUrl)"
-			PackageUrl="$(ProjectUrl)"
+			
 			Files="@(ManifestFiles)" />
   </Target>
 
@@ -160,7 +161,7 @@
 			Description="$(Readme)"
 			Summary="$(Readme)"
 			Version="$(ProductVersion)"
-			MinimumRequiredUmbracoVersion ="$(MinUmbracoVersion)"
+			
 			Authors="$(AuthorName)"
 			Owners="$(Owners)"
 			Copyright="$(Copyright)"
@@ -170,7 +171,7 @@
 			IconUrl="$(IconUrl)"
 			Language="$(Language)"
 			RequireLicenseAcceptance="$(RequireLicenseAcceptance)"
-			Tags="$(Tags)"
+			
 			Files="@(ManifestFiles)" />
   </Target>
 
@@ -182,6 +183,7 @@
 
     <Package ManifestFile="$(BuildUmbDir)\package.xml"
 			WorkingDirectory="$(BuildUmbDir)"
+			
 			OutputDirectory="$(ArtifactsDir)"
 			Files="@(PackageFiles)" />
 

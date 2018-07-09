@@ -129,7 +129,7 @@
     <Copy SourceFiles="@(SrcFiles)"
    DestinationFiles="@(SrcFiles->'$(BuildNuGetDir)\src\%(RecursiveDir)%(Filename)%(Extension)')" />
     <Copy SourceFiles="@(NuSpecFile)" DestinationFolder="$(BuildNuGetDir)" />
-	<Copy SourceFiles="@(AppPluginFiles)" DestinationFolder="$(BuildUmbDir)\App_Plugins" />
+	<Copy SourceFiles="@(AppPluginFiles)" DestinationFolder="$(BuildUmbDir)\App_Plugins\UmbracoCultures" />
     <Copy SourceFiles="@(AppPluginFiles)"	
    DestinationFiles="@(AppPluginFiles->'$(BuildNuGetDir)\Content\%(RecursiveDir)%(Filename)%(Extension)')" />
   </Target> 

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <info>
+    <package>
+      <name>UmbracoCultures</name>
+      <version>1.0.0</version>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>http://our.umbraco.org/projects/</url>
+      <requirements>
+        <major>7</major>
+        <minor>4</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>David Barbosa</name>
+      <website>http://opensource.org/</website>
+    </author>
+    <readme>
+      <![CDATA[Gets Umbraco backend cultures. ]]>
+    </readme>
+  </info>
+
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+
+  <Actions />
+
+  <control />
+
+  <files><file><guid>ec49b860-29d9-4173-93ef-c4c764ab5c05.dll</guid><orgPath>/bin</orgPath><orgName>UmbracoCultures.dll</orgName></file><file><guid>13f3d283-89b0-4d8e-918b-905f9a8c7baa.manifest</guid><orgPath>/UmbracoCultures</orgPath><orgName>package.manifest</orgName></file><file><guid>b075ef59-a2e4-4793-b575-6871d6f2fd0c.xml</guid><orgPath>/UmbracoCultures</orgPath><orgName>package.xml</orgName></file><file><guid>f1cc0a0b-b737-4132-a056-cdef43c44b51.js</guid><orgPath>/UmbracoCultures</orgPath><orgName>UmbracoCultures.controller.js</orgName></file><file><guid>72552a8c-49a7-4182-8ff7-6355c84ac72c.html</guid><orgPath>/UmbracoCultures</orgPath><orgName>UmbracoCultures.html</orgName></file></files>
+
+</umbPackage>
+

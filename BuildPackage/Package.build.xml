@@ -27,7 +27,7 @@
     <PackageDir>$(MSBuildProjectDirectory)\Package</PackageDir>
     <BuildNuGetDir>$(MSBuildProjectDirectory)\NugetBuild</BuildNuGetDir>
     <CoreProjectDir>$(RootDir)\UmbracoCultures</CoreProjectDir>
-    <PropertyEditorProjectDir>$(RootDir)\UmbracoCultures\App_Plugins</PropertyEditorProjectDir>
+    <AppPluginDir>$(RootDir)\UmbracoCultures\App_Plugins</AppPluginDir>
   </PropertyGroup>
 
   <!-- TARGETS -->
@@ -66,7 +66,7 @@
       <CoreBinFile Include="$(CoreProjectDir)\Bin\Debug\UmbracoCultures.dll" />
       <PackageFile Include="$(MSBuildProjectDirectory)\Package.xml" />
       <NuSpecFile Include="$(MSBuildProjectDirectory)\package.nuspec" />
-      <AppPluginFiles Include="$(PropertyEditorProjectDir)\**\*" />
+      <AppPluginFiles Include="$(AppPluginDir)\**\*" />
     </ItemGroup>
     <Copy SourceFiles="@(CoreBinFile)" DestinationFolder="$(BuildDir)\bin" />
     <Copy SourceFiles="@(PackageFile)" DestinationFolder="$(BuildDir)" />
